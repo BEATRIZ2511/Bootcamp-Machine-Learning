@@ -4,7 +4,7 @@ Atividade 2 -
 com os números ímpares.
 R=
 def filtrar_impares(lista):
-    impares = []
+   impares = []
     for numero in lista:
         if numero % 2 != 0:  # verifica se o número é ímpar
             impares.append(numero)
